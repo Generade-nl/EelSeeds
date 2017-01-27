@@ -51,7 +51,9 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   ```
   perl ./binLongEelReads.perl Anguilla_anguilla_15FLASh.extendedFrags.fastq_150_25_0.fasta 
   ```
-length 270 5019778 (subsets used with TULIP)
-length 275 3932744
-length 280 2485298
-length 285 873058 (used with TULIP)
+  ```
+  length 270 5019778 (subsets used with TULIP)
+  length 275 3932744
+  length 280 2485298
+  length 285 873058 (used with TULIP)
+  ```
