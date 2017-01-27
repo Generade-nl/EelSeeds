@@ -39,8 +39,8 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   perl ./selectMergedEelReads.perl Anguilla_anguilla_15FLASh.extendedFrags.fastq anguilla_jellyfish_25L25.dump 150 25 0
   ```
   _Criteria:_<br>
-  minimum length 150<br>
-  suspect k-mers occur 25+ times<br>
+  Minimum length 150<br>
+  Suspect k-mers occur 25+ times<br>
   0% suspect k-mers allowed<br>
   
   11,597,761 kmers indexed<br>
