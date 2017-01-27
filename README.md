@@ -44,8 +44,9 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   <br>
 
 4. **Select sequences of identical length (note: hardcoded lengths 270, 275, 280, 285)**<br>
-
-./binLongEelReads.perl Anguilla_anguilla_15FLASh.extendedFrags.fastq_150_25_0.fasta 
+  ```
+  ./binLongEelReads.perl Anguilla_anguilla_15FLASh.extendedFrags.fastq_150_25_0.fasta 
+  ```
 length 270 5019778 (subsets used with TULIP)
 length 275 3932744
 length 280 2485298
