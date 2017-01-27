@@ -20,9 +20,10 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   ...
   ```
 
-2. Merging
-flash Anguilla_anguilla_PE280_NoIndex_L005_R1_001.fastq  Anguilla_anguilla_PE280_NoIndex_L005_R2_001.fastq --threads 1 --min-overlap 15 --max-overlap 200 --max-mismatch-density=0.1 --output-prefix=Anguilla_anguilla_15FLASh
-
+2. **Merging** <br>
+  ```
+  flash Anguilla_anguilla_PE280_NoIndex_L005_R1_001.fastq  Anguilla_anguilla_PE280_NoIndex_L005_R2_001.fastq --threads 1 --min-overlap 15 --max-overlap 200 --max-mismatch-density=0.1 --output-prefix=Anguilla_anguilla_15FLASh
+  ```
 [FLASH]     Total pairs:      39321964
 
 [FLASH]     Combined pairs:   11466259
