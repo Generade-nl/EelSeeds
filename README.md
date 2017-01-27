@@ -12,17 +12,15 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   ```
   jellyfish dump -c -t -L 25 jf > anguilla_jellyfish_25L25.dump
   ```
-head anguilla_jellyfish_25L25.dump 
-
-AAAAAAAAAAAAAAAAAAAAAAAAA	476094
-
-GAAACTGAGACAGACTGCAGACTGA	34
-
-ATATAGAGTGCACAATGGTGTATAA	26
-
-AAACTCATGTATTGGACTTTATATT	32
-
-...
+  <br>
+  ```
+  head anguilla_jellyfish_25L25.dump 
+  AAAAAAAAAAAAAAAAAAAAAAAAA	476094
+  GAAACTGAGACAGACTGCAGACTGA	34
+  ATATAGAGTGCACAATGGTGTATAA	26
+  AAACTCATGTATTGGACTTTATATT	32
+  ...
+  ```
 
 2. Merging
 flash Anguilla_anguilla_PE280_NoIndex_L005_R1_001.fastq  Anguilla_anguilla_PE280_NoIndex_L005_R2_001.fastq --threads 1 --min-overlap 15 --max-overlap 200 --max-mismatch-density=0.1 --output-prefix=Anguilla_anguilla_15FLASh
