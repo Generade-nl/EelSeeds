@@ -31,6 +31,6 @@ flash Anguilla_anguilla_PE280_NoIndex_L005_R1_001.fastq  Anguilla_anguilla_PE280
 4. Select sequences of identical length (note: hardcoded lengths 270, 275, 280, 285)
 ./binLongEelReads.perl Anguilla_anguilla_15FLASh.extendedFrags.fastq_150_25_0.fasta 
 length 270 5019778 <- subsets used with TULIP
-length 275 3932744
+length 275 3932744<\n>
 length 280 2485298
 length 285 873058 <- used with TULIP
