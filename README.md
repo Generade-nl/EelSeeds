@@ -1,12 +1,13 @@
-Selecting seeds for TULIP from Illumina reads
+#Selecting seeds for TULIP from Illumina reads
 
-For the eel genome assembly, we used Illumina data as seed sequences for TULIP. The criteria we used are a relaxed 'not too repetitive', as the point is mainly to eliminate seeds that will have many connections in the seed graph. Although TULIP will at some point recongize such tangles, it will first try to resolve the local structure into a linear scaffold, which simply takes a lot of time and contributes nothing to the final assembly. So, better to get rid of these sequences beforehand.
+For the eel genome assembly, we used Illumina data as seed sequences for TULIP. The criteria we used are a relaxed 'not too repetitive', as the point is mainly to eliminate seeds that will have many connections in the seed graph. Although TULIP will at some point recongize such tangles, it will first try to resolve the local structure into a linear scaffold, which simply takes a lot of time and contributes nothing to the final assembly. So, better to get rid of these sequences beforehand.<br>
 
-There are probably many ways to select non-repetitive content. For the eel, we used FLASh to merge 2x150 bp reads, Jellyfish to count 25-mers, and two custom scripts to filter out merged reads that do not contain highly abundant 25-mers:
+There are probably many ways to select non-repetitive content. For the eel, we used FLASh to merge 2x150 bp reads, Jellyfish to count 25-mers, and two custom scripts to filter out merged reads that do not contain highly abundant 25-mers:<br>
 
-1. K-mer counting
-jellyfish count -m 25 -t 4 -s 200M -C -o jf  Anguilla_anguilla_PE280_NoIndex_L005_R1_001.fastq  Anguilla_anguilla_PE280_NoIndex_L005_R2_001.fastq 
-
+1. **K-mer counting** <br>
+  ```
+  jellyfish count -m 25 -t 4 -s 200M -C -o jf  Anguilla_anguilla_PE280_NoIndex_L005_R1_001.fastq Anguilla_anguilla_PE280_NoIndex_L005_R2_001.fastq 
+  ```
 jellyfish dump -c -t -L 25 jf > anguilla_jellyfish_25L25.dump
 
 head anguilla_jellyfish_25L25.dump 
