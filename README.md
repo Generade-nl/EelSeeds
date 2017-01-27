@@ -8,8 +8,10 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   ```
   jellyfish count -m 25 -t 4 -s 200M -C -o jf  Anguilla_anguilla_PE280_NoIndex_L005_R1_001.fastq Anguilla_anguilla_PE280_NoIndex_L005_R2_001.fastq 
   ```
-jellyfish dump -c -t -L 25 jf > anguilla_jellyfish_25L25.dump
-
+<br>
+  ```
+  jellyfish dump -c -t -L 25 jf > anguilla_jellyfish_25L25.dump
+  ```
 head anguilla_jellyfish_25L25.dump 
 
 AAAAAAAAAAAAAAAAAAAAAAAAA	476094
