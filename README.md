@@ -24,7 +24,7 @@ flash Anguilla_anguilla_PE280_NoIndex_L005_R1_001.fastq  Anguilla_anguilla_PE280
 
 3. Merged pair selection
 ./selectMergedEelReads.perl Anguilla_anguilla_15FLASh.extendedFrags.fastq anguilla_jellyfish_25L25.dump 150 25 0
-# criteria: minimum length 150, suspect k-mers occur 25+ times, 0% suspect k-mers allowed
+(criteria: minimum length 150, suspect k-mers occur 25+ times, 0% suspect k-mers allowed)
 11597761 kmers indexed
 6767726 reads approved out of 11449623
 
