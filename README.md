@@ -44,7 +44,7 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   _0% suspect k-mers allowed_<br>
   
   11,597,761 kmers indexed<br>
-  6,767,726 reads approved out of 11,449,623<br>
+  **6,767,726** reads approved out of 11,449,623<br>
   <br>
 
 4. **Select sequences of identical length (note: hardcoded lengths 270, 275, 280, 285)**<br>
