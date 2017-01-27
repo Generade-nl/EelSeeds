@@ -13,7 +13,7 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   head anguilla_jellyfish_25L25.dump 
   ```
   ```
-  AAAAAAAAAAAAAAAAAAAAAAAAA	476094
+  AAAAAAAAAAAAAAAAAAAAAAAAA	476,094
   GAAACTGAGACAGACTGCAGACTGA	34
   ATATAGAGTGCACAATGGTGTATAA	26
   AAACTCATGTATTGGACTTTATATT	32
