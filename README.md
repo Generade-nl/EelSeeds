@@ -27,9 +27,9 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   ```
   Results:
   ```
-  [FLASH]     Total pairs:      39321964
-  [FLASH]     Combined pairs:   11466259
-  [FLASH]     Uncombined pairs: 27855705
+  [FLASH]     Total pairs:      39,321,964
+  [FLASH]     Combined pairs:   11,466,259
+  [FLASH]     Uncombined pairs: 27,855,705
   [FLASH]     Percent combined: 29.16%
   ```
   <br>
@@ -52,8 +52,8 @@ There are probably many ways to select non-repetitive content. For the eel, we u
   perl ./binLongEelReads.perl Anguilla_anguilla_15FLASh.extendedFrags.fastq_150_25_0.fasta 
   ```
   ```
-  length 270 5019778 (subsets used with TULIP)
-  length 275 3932744
-  length 280 2485298
-  length 285 873058 (used with TULIP)
+  length 270 5,019,778 (subsets used with TULIP)
+  length 275 3,932,744
+  length 280 2,485,298
+  length 285   873,058 (used with TULIP)
   ```
